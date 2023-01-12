@@ -1,0 +1,209 @@
+:root {
+  --text-color: #667085;
+  --main-color: #8E2424;
+  --font-size: 62.5%; /* 10px */
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header form .button-register, 
+footer .button-register {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 96px 0;
+  gap: 24px;
+}
+
+.heading span {
+  color: var(--main-color);
+}
+
+.heading p {
+  color: var(--text-color);
+  max-width: 50%;
+  text-align: center;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 3rem;
+  padding: 0 8rem;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.metric h3 {
+  color: var(--main-color);
+  font-size: 4.2rem;
+}
+
+.metric span {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.metric p {
+  color: var(--text-color);
+  margin-top: .8rem;
+}
+
+.hiring {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 7.6rem;
+  gap: 20px;
+}
+
+.hire {
+  background: rgba(122, 49, 49, 0.05);
+  padding: 4px 12px;
+  border-radius: 16px;
+  color: var(--main-color);
+}
+
+.hiring p {
+  color: var(--text-color);
+}
+
+.jobs {
+  display: block;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  color: var(--title-color);
+}
+
+.jobs h4 {
+  margin-bottom: 32px;
+  margin-top: 64px;
+}
+
+.job {
+  border: 1px solid #EAECF0;
+  border-radius: 16px;
+  width: 50.8rem;
+  height: 7.6rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 24px 24px 28px;
+  margin-bottom: 1rem;
+}
+
+.job-title {
+  font-weight: bold;
+}
+
+.informations {
+  display: flex;
+  margin-top: 32px;
+  gap: 24px;
+}
+
+.informations span {
+  color: var(--text-color);
+}
+
+.opinions {
+  background-color:#C3191908;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8rem auto;
+  max-width: 80%;
+  padding: 3rem 2rem;
+}
+
+.opinions h3 {
+  text-align: center;
+}
+
+.text-opinions {
+  color: var(--main-color);
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.julia-opinion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.julia-opinion img {
+  margin-top: 32px;
+}
+
+.julia-opinion span {
+  margin-top: 16px;
+}
+
+.julia-opinion p {
+  color: var(--text-color);
+  margin-bottom: 64px;
+}
+
+footer {
+  background: #F9FAFB;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 72px 0;
+}
+
+footer div {
+  display: flex;
+  gap: 16px;
+}
+
+footer span {
+  color: var(--text-color);
+}
+
+.input-container {
+  margin-top: 40px;
+}
+
+.rights {
+  margin-top: 32px;
+}
